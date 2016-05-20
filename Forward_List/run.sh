@@ -1,0 +1,1 @@
+g++ -std=c++11 -I include/ src/drive_forward_list.cpp -o bin/exe && ./bin/exe

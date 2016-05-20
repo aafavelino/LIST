@@ -1,0 +1,520 @@
+\hypertarget{class_forward__list}{}\section{Referência à classe Template Forward\+\_\+list$<$ T $>$}
+\label{class_forward__list}\index{Forward\+\_\+list$<$ T $>$@{Forward\+\_\+list$<$ T $>$}}
+
+
+Classe \hyperlink{class_forward__list}{Forward\+\_\+list}.  
+
+
+
+
+{\ttfamily \#include $<$forward\+\_\+list.\+h$>$}
+
+\subsection*{Componentes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator}
+\begin{DoxyCompactList}\small\item\em Classe \hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator}. \end{DoxyCompactList}\item 
+class \hyperlink{class_forward__list_1_1iterator}{iterator}
+\begin{DoxyCompactList}\small\item\em Classe iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_forward__list_aff553d52bc9688edecf161d1d2c0ac16}{Forward\+\_\+list} ()\hypertarget{class_forward__list_aff553d52bc9688edecf161d1d2c0ac16}{}\label{class_forward__list_aff553d52bc9688edecf161d1d2c0ac16}
+
+\begin{DoxyCompactList}\small\item\em Construtor padrão da classe \hyperlink{class_forward__list}{Forward\+\_\+list} Seta os valores alocando novos nós. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_a05d2a10cf24da5f4c747a4775ad8841f}{$\sim$\+Forward\+\_\+list} ()\hypertarget{class_forward__list_a05d2a10cf24da5f4c747a4775ad8841f}{}\label{class_forward__list_a05d2a10cf24da5f4c747a4775ad8841f}
+
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \hyperlink{class_forward__list}{Forward\+\_\+list} Destroi o m\+\_\+head e o m\+\_\+tail. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_a5390537baf247165b6a74ef44802ceac}{Forward\+\_\+list} (const \hyperlink{class_forward__list}{Forward\+\_\+list} \&list)\hypertarget{class_forward__list_a5390537baf247165b6a74ef44802ceac}{}\label{class_forward__list_a5390537baf247165b6a74ef44802ceac}
+
+\begin{DoxyCompactList}\small\item\em Construtor cópia da classe \hyperlink{class_forward__list}{Forward\+\_\+list} Faz uma cópia de todos os valores do objeto no qual se quer copiar. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_a6c812f45a8e1e8e6d591c138042f1fd8}{Forward\+\_\+list} (\hyperlink{class_forward__list}{Forward\+\_\+list} \&\&list)\hypertarget{class_forward__list_a6c812f45a8e1e8e6d591c138042f1fd8}{}\label{class_forward__list_a6c812f45a8e1e8e6d591c138042f1fd8}
+
+\begin{DoxyCompactList}\small\item\em Construtor move da classe \hyperlink{class_forward__list}{Forward\+\_\+list} Move todos os elementos de um objeto de uma classe para outro objeto. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list}{Forward\+\_\+list} \& \hyperlink{class_forward__list_a3220cc90bc1bb27b0e619c337fab15d1}{operator=} (const \hyperlink{class_forward__list}{Forward\+\_\+list} \&list)
+\begin{DoxyCompactList}\small\item\em Sobrecarga do operador cópia   $\ast$ @ Param list O elemento a ser copiado   $\ast$. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list}{Forward\+\_\+list} \& \hyperlink{class_forward__list_a00a7638bfa3b628a8593a5860c94aea2}{operator=} (\hyperlink{class_forward__list}{Forward\+\_\+list} \&\&list)
+\begin{DoxyCompactList}\small\item\em Sobrecarga do operador move   $\ast$ @ Param list O elemento a ser movido   $\ast$. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_a07be2a83d44326a8cd0b5cdf1f812bd4}{before\+\_\+begin} ()
+\begin{DoxyCompactList}\small\item\em Pega um iterador apontando para o inicio da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_a6bb9ba980c3609dddf08078b6d58f817}{begin} ()
+\begin{DoxyCompactList}\small\item\em Pega um iterador apontando para o primeiro elemento da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_a468b0e5cf01c8fc2750e0e5f960a76a3}{end} ()
+\begin{DoxyCompactList}\small\item\em Pega um iterador apontando para o ultimo elemento da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} \hyperlink{class_forward__list_af4521653f814b65d2d6553e10d68b004}{cbefore\+\_\+begin} () const 
+\begin{DoxyCompactList}\small\item\em Pega um iterador apontando para o inicio da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} \hyperlink{class_forward__list_a9e4499538c8d69d746e7d09c085a6ced}{cbegin} () const 
+\begin{DoxyCompactList}\small\item\em Pega um iterador const apontando para o primeiro elemento da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} \hyperlink{class_forward__list_aad341f8fad1e7aafb207434d8818f82a}{cend} () const 
+\begin{DoxyCompactList}\small\item\em Pega um iterador const apontando para o ultimo elemento da lista. \end{DoxyCompactList}\item 
+int \hyperlink{class_forward__list_a0773c719de2e80aa3185c85a42beea3b}{size} () const 
+\begin{DoxyCompactList}\small\item\em Colhe o tamanho da lista. \end{DoxyCompactList}\item 
+bool \hyperlink{class_forward__list_a765dc4c49b06c6debf4f34921e764a1f}{empty} () const 
+\begin{DoxyCompactList}\small\item\em Verifica se a lista está vazia. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_a7416894cdbf5076501c1008e65415a7e}{clear} ()
+\begin{DoxyCompactList}\small\item\em Deleta todos os elementos da lista. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_forward__list_ade0b98cfad0e480195fb809f2e489409}{front} ()
+\begin{DoxyCompactList}\small\item\em Pega o elemento da frente da lista. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_forward__list_a5bfa5ba82db8a60b3477e36e1455baa2}{front} () const 
+\begin{DoxyCompactList}\small\item\em Pega o elemento da frente da lista. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_forward__list_acd6cd5c5bf33df552796be306ccdf11c}{back} ()
+\begin{DoxyCompactList}\small\item\em Pega o elemento do final da lista. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_forward__list_ad38f7c3c99bd5cd5726e060c81687828}{back} () const 
+\begin{DoxyCompactList}\small\item\em Pega o elemento do final da lista. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_a0774f069e39bc80136d2c78e77b75aee}{push\+\_\+front} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Insere Elementos na frente da lista. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_a51faf6177fe22a6762362bdeda69c5c8}{push\+\_\+back} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Insere Elementos no final da lista. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_a7abff5d3df864ba0a82da91bff676261}{pop\+\_\+front} ()
+\begin{DoxyCompactList}\small\item\em Deleta Elementos na frente da lista. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_a503678bac3a83b4cb48ba4628c11c8a7}{pop\+\_\+back} ()
+\begin{DoxyCompactList}\small\item\em Deleta Elementos no final da lista. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_ace9a774c6f8ec3cd2b79b61a25b372f2}{assign} (const T \&value)
+\begin{DoxyCompactList}\small\item\em Insere o elemento em todas as posicoes da lista. \end{DoxyCompactList}\item 
+void \hyperlink{class_forward__list_a53efa28f4498425a08b2ef2f63bd9907}{assign} (std\+::initializer\+\_\+list$<$ T $>$ ilist)
+\begin{DoxyCompactList}\small\item\em Insere o elemento do tipo initializer\+\_\+list. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_a5514b9b2cd9bd335e427a5723a4f1e4c}{insert\+\_\+after} (\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} itr, const T \&x)
+\begin{DoxyCompactList}\small\item\em Insere um elemento em uma posicao passada por parametro. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_af509938caeb03b51e3308a506fc4b66f}{insert\+\_\+after} (\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} pos, std\+::initializer\+\_\+list$<$ T $>$ ilist)
+\begin{DoxyCompactList}\small\item\em Insere uma lista na lista iterador passada por parametro. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_ae9fd9be0427275ec96a138fe88d9bbce}{erase\+\_\+after} (\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} itr)
+\begin{DoxyCompactList}\small\item\em Apaga um elemento em uma posicao passada por parametro. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1iterator}{iterator} \hyperlink{class_forward__list_ac995fdf90fbd2a22976ba8cede63d3f7}{erase\+\_\+after} (\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} first, \hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} last)
+\begin{DoxyCompactList}\small\item\em Apaga os elementos em um intervalo passado por parametro. \end{DoxyCompactList}\item 
+\hyperlink{class_forward__list_1_1const__iterator}{const\+\_\+iterator} \hyperlink{class_forward__list_a206b61948c4df18b4ab32071bbc1829c}{find} (const T \&x) const 
+\begin{DoxyCompactList}\small\item\em Procura um elemento na lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição detalhada}
+\subsubsection*{template$<$typename T$>$\\*
+class Forward\+\_\+list$<$ T $>$}
+
+Classe \hyperlink{class_forward__list}{Forward\+\_\+list}. 
+
+Assinaturas das funções e definição da classe \hyperlink{class_forward__list}{Forward\+\_\+list} 
+
+\subsection{Documentação dos métodos}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!assign@{assign}}
+\index{assign@{assign}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{assign(const T \&value)}{assign(const T &value)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::assign (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_ace9a774c6f8ec3cd2b79b61a25b372f2}{}\label{class_forward__list_ace9a774c6f8ec3cd2b79b61a25b372f2}
+
+
+Insere o elemento em todas as posicoes da lista. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em value} & Elemento a ser inserido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!assign@{assign}}
+\index{assign@{assign}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{assign(std\+::initializer\+\_\+list$<$ T $>$ ilist)}{assign(std::initializer_list< T > ilist)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::assign (
+\begin{DoxyParamCaption}
+\item[{std\+::initializer\+\_\+list$<$ T $>$}]{ilist}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a53efa28f4498425a08b2ef2f63bd9907}{}\label{class_forward__list_a53efa28f4498425a08b2ef2f63bd9907}
+
+
+Insere o elemento do tipo initializer\+\_\+list. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em ilist} & Lista a ser inserida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!back@{back}}
+\index{back@{back}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{back()}{back()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T \& {\bf Forward\+\_\+list}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_acd6cd5c5bf33df552796be306ccdf11c}{}\label{class_forward__list_acd6cd5c5bf33df552796be306ccdf11c}
+
+
+Pega o elemento do final da lista. 
+
+\begin{DoxyReturn}{Retorna}
+A referência para o ultimo elemento 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!back@{back}}
+\index{back@{back}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{back() const }{back() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ const T \& {\bf Forward\+\_\+list}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_ad38f7c3c99bd5cd5726e060c81687828}{}\label{class_forward__list_ad38f7c3c99bd5cd5726e060c81687828}
+
+
+Pega o elemento do final da lista. 
+
+\begin{DoxyReturn}{Retorna}
+A referência const para o ultimo elemento 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!before\+\_\+begin@{before\+\_\+begin}}
+\index{before\+\_\+begin@{before\+\_\+begin}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{before\+\_\+begin()}{before_begin()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::before\+\_\+begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a07be2a83d44326a8cd0b5cdf1f812bd4}{}\label{class_forward__list_a07be2a83d44326a8cd0b5cdf1f812bd4}
+
+
+Pega um iterador apontando para o inicio da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Um iterador para o inicio da lista 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!begin@{begin}}
+\index{begin@{begin}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{begin()}{begin()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a6bb9ba980c3609dddf08078b6d58f817}{}\label{class_forward__list_a6bb9ba980c3609dddf08078b6d58f817}
+
+
+Pega um iterador apontando para o primeiro elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Um iterador apontando para o primeiro elemento da lista 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!cbefore\+\_\+begin@{cbefore\+\_\+begin}}
+\index{cbefore\+\_\+begin@{cbefore\+\_\+begin}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{cbefore\+\_\+begin() const }{cbefore_begin() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf const\+\_\+iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::cbefore\+\_\+begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_af4521653f814b65d2d6553e10d68b004}{}\label{class_forward__list_af4521653f814b65d2d6553e10d68b004}
+
+
+Pega um iterador apontando para o inicio da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Um iterador para o inicio da lista 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{cbegin() const }{cbegin() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf const\+\_\+iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::cbegin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_a9e4499538c8d69d746e7d09c085a6ced}{}\label{class_forward__list_a9e4499538c8d69d746e7d09c085a6ced}
+
+
+Pega um iterador const apontando para o primeiro elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Um iterador apontando para o primeiro elemento da lista 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!cend@{cend}}
+\index{cend@{cend}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{cend() const }{cend() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf const\+\_\+iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::cend (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_aad341f8fad1e7aafb207434d8818f82a}{}\label{class_forward__list_aad341f8fad1e7aafb207434d8818f82a}
+
+
+Pega um iterador const apontando para o ultimo elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Um iterador apontando para o ultimo elemento da lista 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!clear@{clear}}
+\index{clear@{clear}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a7416894cdbf5076501c1008e65415a7e}{}\label{class_forward__list_a7416894cdbf5076501c1008e65415a7e}
+
+
+Deleta todos os elementos da lista. 
+
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!empty@{empty}}
+\index{empty@{empty}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{empty() const }{empty() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf Forward\+\_\+list}$<$ T $>$\+::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_a765dc4c49b06c6debf4f34921e764a1f}{}\label{class_forward__list_a765dc4c49b06c6debf4f34921e764a1f}
+
+
+Verifica se a lista está vazia. 
+
+\begin{DoxyReturn}{Retorna}
+True se estiver vazia, ou False se não estiver vazia 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!end@{end}}
+\index{end@{end}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{end()}{end()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a468b0e5cf01c8fc2750e0e5f960a76a3}{}\label{class_forward__list_a468b0e5cf01c8fc2750e0e5f960a76a3}
+
+
+Pega um iterador apontando para o ultimo elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Um iterador apontando para o ultimo elemento da lista 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!erase\+\_\+after@{erase\+\_\+after}}
+\index{erase\+\_\+after@{erase\+\_\+after}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{erase\+\_\+after(const\+\_\+iterator itr)}{erase_after(const_iterator itr)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::erase\+\_\+after (
+\begin{DoxyParamCaption}
+\item[{{\bf const\+\_\+iterator}}]{itr}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_ae9fd9be0427275ec96a138fe88d9bbce}{}\label{class_forward__list_ae9fd9be0427275ec96a138fe88d9bbce}
+
+
+Apaga um elemento em uma posicao passada por parametro. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em itr} & O iterador para posicao a ser apagada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A posicao do elemento apagado 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!erase\+\_\+after@{erase\+\_\+after}}
+\index{erase\+\_\+after@{erase\+\_\+after}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{erase\+\_\+after(const\+\_\+iterator first, const\+\_\+iterator last)}{erase_after(const_iterator first, const_iterator last)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::erase\+\_\+after (
+\begin{DoxyParamCaption}
+\item[{{\bf const\+\_\+iterator}}]{first, }
+\item[{{\bf const\+\_\+iterator}}]{last}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_ac995fdf90fbd2a22976ba8cede63d3f7}{}\label{class_forward__list_ac995fdf90fbd2a22976ba8cede63d3f7}
+
+
+Apaga os elementos em um intervalo passado por parametro. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em first} & O iterador para primeira posicao a ser apagada \\
+\hline
+{\em last} & O iterador para ultima posicao a ser apagada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A posicao do ultimo elemento apagado 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!find@{find}}
+\index{find@{find}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{find(const T \&x) const }{find(const T &x) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf const\+\_\+iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::find (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{x}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_a206b61948c4df18b4ab32071bbc1829c}{}\label{class_forward__list_a206b61948c4df18b4ab32071bbc1829c}
+
+
+Procura um elemento na lista. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & O elemento a ser procurado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Um Iterador const para o elemento encontrado 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!front@{front}}
+\index{front@{front}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{front()}{front()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T \& {\bf Forward\+\_\+list}$<$ T $>$\+::front (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_ade0b98cfad0e480195fb809f2e489409}{}\label{class_forward__list_ade0b98cfad0e480195fb809f2e489409}
+
+
+Pega o elemento da frente da lista. 
+
+\begin{DoxyReturn}{Retorna}
+A referência para o primeiro elemento 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!front@{front}}
+\index{front@{front}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{front() const }{front() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ const T \& {\bf Forward\+\_\+list}$<$ T $>$\+::front (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_a5bfa5ba82db8a60b3477e36e1455baa2}{}\label{class_forward__list_a5bfa5ba82db8a60b3477e36e1455baa2}
+
+
+Pega o elemento da frente da lista. 
+
+\begin{DoxyReturn}{Retorna}
+A referência const para o primeiro elemento 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!insert\+\_\+after@{insert\+\_\+after}}
+\index{insert\+\_\+after@{insert\+\_\+after}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{insert\+\_\+after(const\+\_\+iterator itr, const T \&x)}{insert_after(const_iterator itr, const T &x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::insert\+\_\+after (
+\begin{DoxyParamCaption}
+\item[{{\bf const\+\_\+iterator}}]{itr, }
+\item[{const T \&}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a5514b9b2cd9bd335e427a5723a4f1e4c}{}\label{class_forward__list_a5514b9b2cd9bd335e427a5723a4f1e4c}
+
+
+Insere um elemento em uma posicao passada por parametro. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em itr} & O iterador para posicao a ser inserido o elemento \\
+\hline
+{\em x} & O elemento a ser inserido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+O iterador para o elemento inserido 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!insert\+\_\+after@{insert\+\_\+after}}
+\index{insert\+\_\+after@{insert\+\_\+after}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{insert\+\_\+after(const\+\_\+iterator pos, std\+::initializer\+\_\+list$<$ T $>$ ilist)}{insert_after(const_iterator pos, std::initializer_list< T > ilist)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}$<$ T $>$\+::{\bf iterator} {\bf Forward\+\_\+list}$<$ T $>$\+::insert\+\_\+after (
+\begin{DoxyParamCaption}
+\item[{{\bf const\+\_\+iterator}}]{pos, }
+\item[{std\+::initializer\+\_\+list$<$ T $>$}]{ilist}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_af509938caeb03b51e3308a506fc4b66f}{}\label{class_forward__list_af509938caeb03b51e3308a506fc4b66f}
+
+
+Insere uma lista na lista iterador passada por parametro. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pos} & O iterador para posicao a ser inserido o elemento \\
+\hline
+{\em ilist} & A lista a ser inserida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+O iterador para o ultimo elemento adicionado 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!operator=@{operator=}}
+\index{operator=@{operator=}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{operator=(const Forward\+\_\+list \&list)}{operator=(const Forward_list &list)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}\& {\bf Forward\+\_\+list}$<$ T $>$\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Forward\+\_\+list}$<$ T $>$ \&}]{list}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_forward__list_a3220cc90bc1bb27b0e619c337fab15d1}{}\label{class_forward__list_a3220cc90bc1bb27b0e619c337fab15d1}
+
+
+Sobrecarga do operador cópia   $\ast$ @ Param list O elemento a ser copiado   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+O this do elemento copiado   
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!operator=@{operator=}}
+\index{operator=@{operator=}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{operator=(\+Forward\+\_\+list \&\&list)}{operator=(Forward_list &&list)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Forward\+\_\+list}\& {\bf Forward\+\_\+list}$<$ T $>$\+::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Forward\+\_\+list}$<$ T $>$ \&\&}]{list}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_forward__list_a00a7638bfa3b628a8593a5860c94aea2}{}\label{class_forward__list_a00a7638bfa3b628a8593a5860c94aea2}
+
+
+Sobrecarga do operador move   $\ast$ @ Param list O elemento a ser movido   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+O this do elemento movido   
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!pop\+\_\+back@{pop\+\_\+back}}
+\index{pop\+\_\+back@{pop\+\_\+back}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{pop\+\_\+back()}{pop_back()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::pop\+\_\+back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a503678bac3a83b4cb48ba4628c11c8a7}{}\label{class_forward__list_a503678bac3a83b4cb48ba4628c11c8a7}
+
+
+Deleta Elementos no final da lista. 
+
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!pop\+\_\+front@{pop\+\_\+front}}
+\index{pop\+\_\+front@{pop\+\_\+front}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{pop\+\_\+front()}{pop_front()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::pop\+\_\+front (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a7abff5d3df864ba0a82da91bff676261}{}\label{class_forward__list_a7abff5d3df864ba0a82da91bff676261}
+
+
+Deleta Elementos na frente da lista. 
+
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!push\+\_\+back@{push\+\_\+back}}
+\index{push\+\_\+back@{push\+\_\+back}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{push\+\_\+back(const T \&x)}{push_back(const T &x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::push\+\_\+back (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a51faf6177fe22a6762362bdeda69c5c8}{}\label{class_forward__list_a51faf6177fe22a6762362bdeda69c5c8}
+
+
+Insere Elementos no final da lista. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & O elemento a ser inserido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!push\+\_\+front@{push\+\_\+front}}
+\index{push\+\_\+front@{push\+\_\+front}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{push\+\_\+front(const T \&x)}{push_front(const T &x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Forward\+\_\+list}$<$ T $>$\+::push\+\_\+front (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_forward__list_a0774f069e39bc80136d2c78e77b75aee}{}\label{class_forward__list_a0774f069e39bc80136d2c78e77b75aee}
+
+
+Insere Elementos na frente da lista. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & O elemento a ser inserido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+\index{Forward\+\_\+list@{Forward\+\_\+list}!size@{size}}
+\index{size@{size}!Forward\+\_\+list@{Forward\+\_\+list}}
+\subsubsection[{\texorpdfstring{size() const }{size() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf Forward\+\_\+list}$<$ T $>$\+::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_forward__list_a0773c719de2e80aa3185c85a42beea3b}{}\label{class_forward__list_a0773c719de2e80aa3185c85a42beea3b}
+
+
+Colhe o tamanho da lista. 
+
+\begin{DoxyReturn}{Retorna}
+O tamanho da Forward list 
+\end{DoxyReturn}
+
+
+A documentação para esta classe foi gerada a partir dos seguintes ficheiros\+:\begin{DoxyCompactItemize}
+\item 
+Forward\+\_\+\+List/include/\hyperlink{forward__list_8h}{forward\+\_\+list.\+h}\item 
+Forward\+\_\+\+List/include/\hyperlink{forward__list_8inl}{forward\+\_\+list.\+inl}\end{DoxyCompactItemize}

@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Implementing the List Abstract Data Type: Implementing the List Abstract Data Type</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Implementing the List Abstract Data Type
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li class="current"><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Implementing the <a class="el" href="class_list.html" title="Classe List. ">List</a> Abstract Data Type </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h2>Descrição</h2>
+<pre class="fragment">O projeto em questão foi realizado para a disciplina de Liguagem de Programação I e visa o desenvolvimento de três classes, um vector, uma forward_list e um list (vetor, lista encadeada e lista duplamente encadeada). Para que essas classes se comportassem de forma semelhante as da biblioteca do c++ std, foi necessário desenvolver mais duas classes para cada estrutura de dado, um const_iterator e um iterator. Essas duas classes auxiliares tinham métodos de acesso a determinados pontos das estruturas de forma que se comportavam como ponteiros encapsulados.
+A implementacao consiste em desenvolver funcoes basicas como: inserir elementos de diversas formas, remover elementos, modificar valores, atribuir valores, colher valores. Na implementacao tambem foi necessario o desenvolvimento de iteradores em todas as tres classes solicitadas no documento. Em virtude de facilidade de testes os drivers dos programas foram divididos em tres partes.
+</pre><h2>Compilação e Execucao</h2>
+<h3>Dentro de seu respectivo diretorio executar o comando referente</h3>
+<p>*Vector</p>
+<p>$ g++ -std=c++11 -I include/ <a class="el" href="drive__vector_8cpp.html" title="Arquivo driver. ">src/drive_vector.cpp</a> -o bin/exe &amp;&amp; ./bin/exe</p>
+<p>*Forward_list</p>
+<p>$ g++ -std=c++11 -I include/ <a class="el" href="drive__forward__list_8cpp.html" title="Arquivo driver. ">src/drive_forward_list.cpp</a> -o bin/exe &amp;&amp; ./bin/exe</p>
+<p>*List</p>
+<p>$ g++ -std=c++11 -I include/ <a class="el" href="drive_8cpp.html" title="Arquivo driver. ">src/drive.cpp</a> -o bin/exe &amp;&amp; ./bin/exe</p>
+<h2>Autores:</h2>
+<ul>
+<li>Adelino Afonso Fernandes Avelino - <a href="#" onclick="location.href='mai'+'lto:'+'ade'+'li'+'no-'+'af'+'ons'+'o@'+'hot'+'ma'+'il.'+'co'+'m'; return false;">adeli<span style="display: none;">.nosp@m.</span>no-a<span style="display: none;">.nosp@m.</span>fonso<span style="display: none;">.nosp@m.</span>@hot<span style="display: none;">.nosp@m.</span>mail.<span style="display: none;">.nosp@m.</span>com</a></li>
+<li>Irene Ginani Costa Pinheiro - <a href="#" onclick="location.href='mai'+'lto:'+'ire'+'ne'+'gin'+'an'+'i@g'+'ma'+'il.'+'co'+'m'; return false;">irene<span style="display: none;">.nosp@m.</span>gina<span style="display: none;">.nosp@m.</span>ni@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a> </li>
+</ul>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

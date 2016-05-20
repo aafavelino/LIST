@@ -1,0 +1,859 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Implementing the List Abstract Data Type: Referência à classe Template Forward_list&lt; T &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Implementing the List Abstract Data Type
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;componentes</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;dos&#160;componentes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarquia&#160;de&#160;classes</span></a></li>
+      <li><a href="functions.html"><span>Componentes&#160;membro</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Componentes</a> &#124;
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="class_forward__list-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Template Forward_list&lt; T &gt;</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a>.  
+ <a href="class_forward__list.html#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="forward__list_8h_source.html">forward_list.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Componentes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classe <a class="el" href="class_forward__list_1_1const__iterator.html" title="Classe const_iterator. ">const_iterator</a>.  <a href="class_forward__list_1_1const__iterator.html#details">Mais...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classe iterator.  <a href="class_forward__list_1_1iterator.html#details">Mais...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:aff553d52bc9688edecf161d1d2c0ac16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff553d52bc9688edecf161d1d2c0ac16"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#aff553d52bc9688edecf161d1d2c0ac16">Forward_list</a> ()</td></tr>
+<tr class="memdesc:aff553d52bc9688edecf161d1d2c0ac16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor padrão da classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a> Seta os valores alocando novos nós. <br /></td></tr>
+<tr class="separator:aff553d52bc9688edecf161d1d2c0ac16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05d2a10cf24da5f4c747a4775ad8841f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05d2a10cf24da5f4c747a4775ad8841f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a05d2a10cf24da5f4c747a4775ad8841f">~Forward_list</a> ()</td></tr>
+<tr class="memdesc:a05d2a10cf24da5f4c747a4775ad8841f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destrutor da classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a> Destroi o m_head e o m_tail. <br /></td></tr>
+<tr class="separator:a05d2a10cf24da5f4c747a4775ad8841f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5390537baf247165b6a74ef44802ceac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5390537baf247165b6a74ef44802ceac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a5390537baf247165b6a74ef44802ceac">Forward_list</a> (const <a class="el" href="class_forward__list.html">Forward_list</a> &amp;list)</td></tr>
+<tr class="memdesc:a5390537baf247165b6a74ef44802ceac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor cópia da classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a> Faz uma cópia de todos os valores do objeto no qual se quer copiar. <br /></td></tr>
+<tr class="separator:a5390537baf247165b6a74ef44802ceac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c812f45a8e1e8e6d591c138042f1fd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c812f45a8e1e8e6d591c138042f1fd8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a6c812f45a8e1e8e6d591c138042f1fd8">Forward_list</a> (<a class="el" href="class_forward__list.html">Forward_list</a> &amp;&amp;list)</td></tr>
+<tr class="memdesc:a6c812f45a8e1e8e6d591c138042f1fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor move da classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a> Move todos os elementos de um objeto de uma classe para outro objeto. <br /></td></tr>
+<tr class="separator:a6c812f45a8e1e8e6d591c138042f1fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3220cc90bc1bb27b0e619c337fab15d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list.html">Forward_list</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a3220cc90bc1bb27b0e619c337fab15d1">operator=</a> (const <a class="el" href="class_forward__list.html">Forward_list</a> &amp;list)</td></tr>
+<tr class="memdesc:a3220cc90bc1bb27b0e619c337fab15d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sobrecarga do operador cópia   * @ Param list O elemento a ser copiado   *.  <a href="#a3220cc90bc1bb27b0e619c337fab15d1">Mais...</a><br /></td></tr>
+<tr class="separator:a3220cc90bc1bb27b0e619c337fab15d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a7638bfa3b628a8593a5860c94aea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list.html">Forward_list</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a00a7638bfa3b628a8593a5860c94aea2">operator=</a> (<a class="el" href="class_forward__list.html">Forward_list</a> &amp;&amp;list)</td></tr>
+<tr class="memdesc:a00a7638bfa3b628a8593a5860c94aea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sobrecarga do operador move   * @ Param list O elemento a ser movido   *.  <a href="#a00a7638bfa3b628a8593a5860c94aea2">Mais...</a><br /></td></tr>
+<tr class="separator:a00a7638bfa3b628a8593a5860c94aea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07be2a83d44326a8cd0b5cdf1f812bd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a07be2a83d44326a8cd0b5cdf1f812bd4">before_begin</a> ()</td></tr>
+<tr class="memdesc:a07be2a83d44326a8cd0b5cdf1f812bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega um iterador apontando para o inicio da lista.  <a href="#a07be2a83d44326a8cd0b5cdf1f812bd4">Mais...</a><br /></td></tr>
+<tr class="separator:a07be2a83d44326a8cd0b5cdf1f812bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb9ba980c3609dddf08078b6d58f817"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a6bb9ba980c3609dddf08078b6d58f817">begin</a> ()</td></tr>
+<tr class="memdesc:a6bb9ba980c3609dddf08078b6d58f817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega um iterador apontando para o primeiro elemento da lista.  <a href="#a6bb9ba980c3609dddf08078b6d58f817">Mais...</a><br /></td></tr>
+<tr class="separator:a6bb9ba980c3609dddf08078b6d58f817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468b0e5cf01c8fc2750e0e5f960a76a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a468b0e5cf01c8fc2750e0e5f960a76a3">end</a> ()</td></tr>
+<tr class="memdesc:a468b0e5cf01c8fc2750e0e5f960a76a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega um iterador apontando para o ultimo elemento da lista.  <a href="#a468b0e5cf01c8fc2750e0e5f960a76a3">Mais...</a><br /></td></tr>
+<tr class="separator:a468b0e5cf01c8fc2750e0e5f960a76a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4521653f814b65d2d6553e10d68b004"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#af4521653f814b65d2d6553e10d68b004">cbefore_begin</a> () const </td></tr>
+<tr class="memdesc:af4521653f814b65d2d6553e10d68b004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega um iterador apontando para o inicio da lista.  <a href="#af4521653f814b65d2d6553e10d68b004">Mais...</a><br /></td></tr>
+<tr class="separator:af4521653f814b65d2d6553e10d68b004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4499538c8d69d746e7d09c085a6ced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a9e4499538c8d69d746e7d09c085a6ced">cbegin</a> () const </td></tr>
+<tr class="memdesc:a9e4499538c8d69d746e7d09c085a6ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega um iterador const apontando para o primeiro elemento da lista.  <a href="#a9e4499538c8d69d746e7d09c085a6ced">Mais...</a><br /></td></tr>
+<tr class="separator:a9e4499538c8d69d746e7d09c085a6ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad341f8fad1e7aafb207434d8818f82a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#aad341f8fad1e7aafb207434d8818f82a">cend</a> () const </td></tr>
+<tr class="memdesc:aad341f8fad1e7aafb207434d8818f82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega um iterador const apontando para o ultimo elemento da lista.  <a href="#aad341f8fad1e7aafb207434d8818f82a">Mais...</a><br /></td></tr>
+<tr class="separator:aad341f8fad1e7aafb207434d8818f82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0773c719de2e80aa3185c85a42beea3b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a0773c719de2e80aa3185c85a42beea3b">size</a> () const </td></tr>
+<tr class="memdesc:a0773c719de2e80aa3185c85a42beea3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colhe o tamanho da lista.  <a href="#a0773c719de2e80aa3185c85a42beea3b">Mais...</a><br /></td></tr>
+<tr class="separator:a0773c719de2e80aa3185c85a42beea3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765dc4c49b06c6debf4f34921e764a1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a765dc4c49b06c6debf4f34921e764a1f">empty</a> () const </td></tr>
+<tr class="memdesc:a765dc4c49b06c6debf4f34921e764a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifica se a lista está vazia.  <a href="#a765dc4c49b06c6debf4f34921e764a1f">Mais...</a><br /></td></tr>
+<tr class="separator:a765dc4c49b06c6debf4f34921e764a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7416894cdbf5076501c1008e65415a7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a7416894cdbf5076501c1008e65415a7e">clear</a> ()</td></tr>
+<tr class="memdesc:a7416894cdbf5076501c1008e65415a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleta todos os elementos da lista.  <a href="#a7416894cdbf5076501c1008e65415a7e">Mais...</a><br /></td></tr>
+<tr class="separator:a7416894cdbf5076501c1008e65415a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0b98cfad0e480195fb809f2e489409"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#ade0b98cfad0e480195fb809f2e489409">front</a> ()</td></tr>
+<tr class="memdesc:ade0b98cfad0e480195fb809f2e489409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega o elemento da frente da lista.  <a href="#ade0b98cfad0e480195fb809f2e489409">Mais...</a><br /></td></tr>
+<tr class="separator:ade0b98cfad0e480195fb809f2e489409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bfa5ba82db8a60b3477e36e1455baa2"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a5bfa5ba82db8a60b3477e36e1455baa2">front</a> () const </td></tr>
+<tr class="memdesc:a5bfa5ba82db8a60b3477e36e1455baa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega o elemento da frente da lista.  <a href="#a5bfa5ba82db8a60b3477e36e1455baa2">Mais...</a><br /></td></tr>
+<tr class="separator:a5bfa5ba82db8a60b3477e36e1455baa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6cd5c5bf33df552796be306ccdf11c"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#acd6cd5c5bf33df552796be306ccdf11c">back</a> ()</td></tr>
+<tr class="memdesc:acd6cd5c5bf33df552796be306ccdf11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega o elemento do final da lista.  <a href="#acd6cd5c5bf33df552796be306ccdf11c">Mais...</a><br /></td></tr>
+<tr class="separator:acd6cd5c5bf33df552796be306ccdf11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad38f7c3c99bd5cd5726e060c81687828"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#ad38f7c3c99bd5cd5726e060c81687828">back</a> () const </td></tr>
+<tr class="memdesc:ad38f7c3c99bd5cd5726e060c81687828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pega o elemento do final da lista.  <a href="#ad38f7c3c99bd5cd5726e060c81687828">Mais...</a><br /></td></tr>
+<tr class="separator:ad38f7c3c99bd5cd5726e060c81687828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0774f069e39bc80136d2c78e77b75aee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a0774f069e39bc80136d2c78e77b75aee">push_front</a> (const T &amp;x)</td></tr>
+<tr class="memdesc:a0774f069e39bc80136d2c78e77b75aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insere Elementos na frente da lista.  <a href="#a0774f069e39bc80136d2c78e77b75aee">Mais...</a><br /></td></tr>
+<tr class="separator:a0774f069e39bc80136d2c78e77b75aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51faf6177fe22a6762362bdeda69c5c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a51faf6177fe22a6762362bdeda69c5c8">push_back</a> (const T &amp;x)</td></tr>
+<tr class="memdesc:a51faf6177fe22a6762362bdeda69c5c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insere Elementos no final da lista.  <a href="#a51faf6177fe22a6762362bdeda69c5c8">Mais...</a><br /></td></tr>
+<tr class="separator:a51faf6177fe22a6762362bdeda69c5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7abff5d3df864ba0a82da91bff676261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a7abff5d3df864ba0a82da91bff676261">pop_front</a> ()</td></tr>
+<tr class="memdesc:a7abff5d3df864ba0a82da91bff676261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleta Elementos na frente da lista.  <a href="#a7abff5d3df864ba0a82da91bff676261">Mais...</a><br /></td></tr>
+<tr class="separator:a7abff5d3df864ba0a82da91bff676261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503678bac3a83b4cb48ba4628c11c8a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a503678bac3a83b4cb48ba4628c11c8a7">pop_back</a> ()</td></tr>
+<tr class="memdesc:a503678bac3a83b4cb48ba4628c11c8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleta Elementos no final da lista.  <a href="#a503678bac3a83b4cb48ba4628c11c8a7">Mais...</a><br /></td></tr>
+<tr class="separator:a503678bac3a83b4cb48ba4628c11c8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9a774c6f8ec3cd2b79b61a25b372f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#ace9a774c6f8ec3cd2b79b61a25b372f2">assign</a> (const T &amp;value)</td></tr>
+<tr class="memdesc:ace9a774c6f8ec3cd2b79b61a25b372f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insere o elemento em todas as posicoes da lista.  <a href="#ace9a774c6f8ec3cd2b79b61a25b372f2">Mais...</a><br /></td></tr>
+<tr class="separator:ace9a774c6f8ec3cd2b79b61a25b372f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53efa28f4498425a08b2ef2f63bd9907"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a53efa28f4498425a08b2ef2f63bd9907">assign</a> (std::initializer_list&lt; T &gt; ilist)</td></tr>
+<tr class="memdesc:a53efa28f4498425a08b2ef2f63bd9907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insere o elemento do tipo initializer_list.  <a href="#a53efa28f4498425a08b2ef2f63bd9907">Mais...</a><br /></td></tr>
+<tr class="separator:a53efa28f4498425a08b2ef2f63bd9907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5514b9b2cd9bd335e427a5723a4f1e4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a5514b9b2cd9bd335e427a5723a4f1e4c">insert_after</a> (<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> itr, const T &amp;x)</td></tr>
+<tr class="memdesc:a5514b9b2cd9bd335e427a5723a4f1e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insere um elemento em uma posicao passada por parametro.  <a href="#a5514b9b2cd9bd335e427a5723a4f1e4c">Mais...</a><br /></td></tr>
+<tr class="separator:a5514b9b2cd9bd335e427a5723a4f1e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af509938caeb03b51e3308a506fc4b66f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#af509938caeb03b51e3308a506fc4b66f">insert_after</a> (<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> pos, std::initializer_list&lt; T &gt; ilist)</td></tr>
+<tr class="memdesc:af509938caeb03b51e3308a506fc4b66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insere uma lista na lista iterador passada por parametro.  <a href="#af509938caeb03b51e3308a506fc4b66f">Mais...</a><br /></td></tr>
+<tr class="separator:af509938caeb03b51e3308a506fc4b66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fd9be0427275ec96a138fe88d9bbce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#ae9fd9be0427275ec96a138fe88d9bbce">erase_after</a> (<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> itr)</td></tr>
+<tr class="memdesc:ae9fd9be0427275ec96a138fe88d9bbce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apaga um elemento em uma posicao passada por parametro.  <a href="#ae9fd9be0427275ec96a138fe88d9bbce">Mais...</a><br /></td></tr>
+<tr class="separator:ae9fd9be0427275ec96a138fe88d9bbce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac995fdf90fbd2a22976ba8cede63d3f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#ac995fdf90fbd2a22976ba8cede63d3f7">erase_after</a> (<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> first, <a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> last)</td></tr>
+<tr class="memdesc:ac995fdf90fbd2a22976ba8cede63d3f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apaga os elementos em um intervalo passado por parametro.  <a href="#ac995fdf90fbd2a22976ba8cede63d3f7">Mais...</a><br /></td></tr>
+<tr class="separator:ac995fdf90fbd2a22976ba8cede63d3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206b61948c4df18b4ab32071bbc1829c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_forward__list.html#a206b61948c4df18b4ab32071bbc1829c">find</a> (const T &amp;x) const </td></tr>
+<tr class="memdesc:a206b61948c4df18b4ab32071bbc1829c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procura um elemento na lista.  <a href="#a206b61948c4df18b4ab32071bbc1829c">Mais...</a><br /></td></tr>
+<tr class="separator:a206b61948c4df18b4ab32071bbc1829c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class Forward_list&lt; T &gt;</h3>
+
+<p>Classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a>. </p>
+<p>Assinaturas das funções e definição da classe <a class="el" href="class_forward__list.html" title="Classe Forward_list. ">Forward_list</a> </p>
+</div><h2 class="groupheader">Documentação dos métodos</h2>
+<a class="anchor" id="ace9a774c6f8ec3cd2b79b61a25b372f2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::assign </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insere o elemento em todas as posicoes da lista. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Elemento a ser inserido </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a53efa28f4498425a08b2ef2f63bd9907"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::assign </td>
+          <td>(</td>
+          <td class="paramtype">std::initializer_list&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>ilist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insere o elemento do tipo initializer_list. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ilist</td><td>Lista a ser inserida </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acd6cd5c5bf33df552796be306ccdf11c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T &amp; <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega o elemento do final da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>A referência para o ultimo elemento </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad38f7c3c99bd5cd5726e060c81687828"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const T &amp; <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega o elemento do final da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>A referência const para o ultimo elemento </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a07be2a83d44326a8cd0b5cdf1f812bd4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::before_begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega um iterador apontando para o inicio da lista. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>Um iterador para o inicio da lista </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6bb9ba980c3609dddf08078b6d58f817"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega um iterador apontando para o primeiro elemento da lista. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>Um iterador apontando para o primeiro elemento da lista </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af4521653f814b65d2d6553e10d68b004"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::cbefore_begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega um iterador apontando para o inicio da lista. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>Um iterador para o inicio da lista </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9e4499538c8d69d746e7d09c085a6ced"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::cbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega um iterador const apontando para o primeiro elemento da lista. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>Um iterador apontando para o primeiro elemento da lista </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aad341f8fad1e7aafb207434d8818f82a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::cend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega um iterador const apontando para o ultimo elemento da lista. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>Um iterador apontando para o ultimo elemento da lista </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7416894cdbf5076501c1008e65415a7e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deleta todos os elementos da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a765dc4c49b06c6debf4f34921e764a1f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verifica se a lista está vazia. </p>
+<dl class="section return"><dt>Retorna</dt><dd>True se estiver vazia, ou False se não estiver vazia </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a468b0e5cf01c8fc2750e0e5f960a76a3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega um iterador apontando para o ultimo elemento da lista. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>Um iterador apontando para o ultimo elemento da lista </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae9fd9be0427275ec96a138fe88d9bbce"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::erase_after </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>itr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apaga um elemento em uma posicao passada por parametro. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itr</td><td>O iterador para posicao a ser apagada </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A posicao do elemento apagado </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac995fdf90fbd2a22976ba8cede63d3f7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::erase_after </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apaga os elementos em um intervalo passado por parametro. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>O iterador para primeira posicao a ser apagada </td></tr>
+    <tr><td class="paramname">last</td><td>O iterador para ultima posicao a ser apagada </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A posicao do ultimo elemento apagado </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a206b61948c4df18b4ab32071bbc1829c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procura um elemento na lista. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>O elemento a ser procurado </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Um Iterador const para o elemento encontrado </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ade0b98cfad0e480195fb809f2e489409"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T &amp; <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega o elemento da frente da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>A referência para o primeiro elemento </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5bfa5ba82db8a60b3477e36e1455baa2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const T &amp; <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pega o elemento da frente da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>A referência const para o primeiro elemento </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5514b9b2cd9bd335e427a5723a4f1e4c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::insert_after </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>itr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insere um elemento em uma posicao passada por parametro. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itr</td><td>O iterador para posicao a ser inserido o elemento </td></tr>
+    <tr><td class="paramname">x</td><td>O elemento a ser inserido </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O iterador para o elemento inserido </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af509938caeb03b51e3308a506fc4b66f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::<a class="el" href="class_forward__list_1_1iterator.html">iterator</a> <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::insert_after </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_forward__list_1_1const__iterator.html">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::initializer_list&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>ilist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insere uma lista na lista iterador passada por parametro. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>O iterador para posicao a ser inserido o elemento </td></tr>
+    <tr><td class="paramname">ilist</td><td>A lista a ser inserida </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O iterador para o ultimo elemento adicionado </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3220cc90bc1bb27b0e619c337fab15d1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&amp; <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sobrecarga do operador cópia   * @ Param list O elemento a ser copiado   *. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>O this do elemento copiado   </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a00a7638bfa3b628a8593a5860c94aea2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forward__list.html">Forward_list</a>&amp; <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sobrecarga do operador move   * @ Param list O elemento a ser movido   *. </p>
+<p>  * </p><dl class="section return"><dt>Retorna</dt><dd>O this do elemento movido   </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a503678bac3a83b4cb48ba4628c11c8a7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::pop_back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deleta Elementos no final da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7abff5d3df864ba0a82da91bff676261"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::pop_front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deleta Elementos na frente da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a51faf6177fe22a6762362bdeda69c5c8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insere Elementos no final da lista. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>O elemento a ser inserido </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0774f069e39bc80136d2c78e77b75aee"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::push_front </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insere Elementos na frente da lista. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>O elemento a ser inserido </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0773c719de2e80aa3185c85a42beea3b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_forward__list.html">Forward_list</a>&lt; T &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Colhe o tamanho da lista. </p>
+<dl class="section return"><dt>Retorna</dt><dd>O tamanho da Forward list </dd></dl>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir dos seguintes ficheiros:<ul>
+<li>Forward_List/include/<a class="el" href="forward__list_8h_source.html">forward_list.h</a></li>
+<li>Forward_List/include/<a class="el" href="forward__list_8inl.html">forward_list.inl</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

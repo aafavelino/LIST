@@ -1,0 +1,285 @@
+\hypertarget{class_vector}{}\section{Referência à classe Template Vector$<$ Obj $>$}
+\label{class_vector}\index{Vector$<$ Obj $>$@{Vector$<$ Obj $>$}}
+
+
+Classe \hyperlink{class_vector}{Vector}.  
+
+
+
+
+{\ttfamily \#include $<$vector.\+h$>$}
+
+\subsection*{Componentes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_vector_1_1const__iterator}{const\+\_\+iterator}
+\item 
+class \hyperlink{class_vector_1_1iterator}{iterator}
+\end{DoxyCompactItemize}
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_vector_a882e1f7a7fcb08d248bd2fa3f9869527}{Vector} (size\+\_\+t x=1)\hypertarget{class_vector_a882e1f7a7fcb08d248bd2fa3f9869527}{}\label{class_vector_a882e1f7a7fcb08d248bd2fa3f9869527}
+
+\begin{DoxyCompactList}\small\item\em Construtor \hyperlink{class_vector}{Vector} @ Param x O tamanho do vetor. \end{DoxyCompactList}\item 
+\hyperlink{class_vector_a42105d30af4b2da75975561e1aff74c4}{$\sim$\+Vector} ()\hypertarget{class_vector_a42105d30af4b2da75975561e1aff74c4}{}\label{class_vector_a42105d30af4b2da75975561e1aff74c4}
+
+\begin{DoxyCompactList}\small\item\em Destrutor \hyperlink{class_vector}{Vector}. \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{class_vector_afe1de779df754eedd2a8a0be4d796643}{size} () const 
+\begin{DoxyCompactList}\small\item\em Pega tamanho \hyperlink{class_vector}{Vector}   $\ast$. \end{DoxyCompactList}\item 
+void \hyperlink{class_vector_ae7234417f87946c4bfcccf738af75837}{clear} ()
+\begin{DoxyCompactList}\small\item\em Remove todos os elementos do vetor   \end{DoxyCompactList}\item 
+bool \hyperlink{class_vector_a7d4b2337c2da133cc4868ce755730644}{empty} ()
+\begin{DoxyCompactList}\small\item\em Verifica se o vetor está vazio   $\ast$. \end{DoxyCompactList}\item 
+void \hyperlink{class_vector_a0edf2c3ff13e5c83ddea6ee5c8c8ec4f}{push\+\_\+back} (const Obj \&x)
+\begin{DoxyCompactList}\small\item\em Adicionar um elemento no final do vector   $\ast$ @ Param x Elemento a ser colocado atrás    \end{DoxyCompactList}\item 
+void \hyperlink{class_vector_a616d10a9af01df582450d1ba6fd2e1bc}{pop\+\_\+back} ()
+\begin{DoxyCompactList}\small\item\em Remove o ultimo elemento do vetor    \end{DoxyCompactList}\item 
+const Obj \& \hyperlink{class_vector_a239e09c772177108354d25fea6974bbd}{front} () const 
+\begin{DoxyCompactList}\small\item\em Retorna o Obj no inicio do \hyperlink{class_vector}{Vector}   $\ast$. \end{DoxyCompactList}\item 
+const Obj \& \hyperlink{class_vector_a67d8538b1d68f7a099622383565839d9}{back} () const 
+\begin{DoxyCompactList}\small\item\em Retorna o Obj no fim do \hyperlink{class_vector}{Vector}   $\ast$. \end{DoxyCompactList}\item 
+void \hyperlink{class_vector_a76ac292de41a52ebc948432c1220d13e}{assign} (const Obj \&x)
+\begin{DoxyCompactList}\small\item\em Substitui o conteúdo do vetor   $\ast$ @ Param x Atribui novos conteúdos ao vector, substituindo seu conteúdo atual, e modificando seu tamanho em conformidade. \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{class_vector_acf2e59a5ce4f1059e08139989ece3e0b}{capacity} () const 
+\begin{DoxyCompactList}\small\item\em Retorna a capacidade \hyperlink{class_vector}{Vector}   $\ast$. \end{DoxyCompactList}\item 
+void \hyperlink{class_vector_a1a858089a6bc82faffabdeb03386a85f}{reserve} (size\+\_\+t new\+\_\+capacidade)
+\begin{DoxyCompactList}\small\item\em Define a nova capacidade \hyperlink{class_vector}{Vector}   $\ast$ @ Param new\+\_\+capacidade O novo tamanho da capacidade    \end{DoxyCompactList}\item 
+Obj \& \hyperlink{class_vector_a568255f8d17d285793167b1cee11f926}{at} (size\+\_\+t x)
+\begin{DoxyCompactList}\small\item\em Retorna o elemento em alguma posição   $\ast$ @ Param x A posição a ser devolvido   $\ast$. \end{DoxyCompactList}\item 
+Obj \& \hyperlink{class_vector_a51289cefc80dbd081f815f30a554b7db}{operator\mbox{[}$\,$\mbox{]}} (size\+\_\+t x)
+\begin{DoxyCompactList}\small\item\em Sobrecarrega o operador \mbox{[}\mbox{]}   $\ast$ @ Param x posição a ser acessada   $\ast$. \end{DoxyCompactList}\item 
+\hyperlink{class_vector_1_1const__iterator}{const\+\_\+iterator} \hyperlink{class_vector_a66c90ea54c76cf19aee525ed7f4c46dc}{cbegin} () const 
+\begin{DoxyCompactList}\small\item\em Pega um iterador const apontando para o primeiro elemento da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_vector_1_1iterator}{iterator} \hyperlink{class_vector_a261d7f78f5ac7b890eff45ce86e8d58c}{begin} ()
+\begin{DoxyCompactList}\small\item\em Pega um iterador apontando para o primeiro elemento da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_vector_1_1const__iterator}{const\+\_\+iterator} \hyperlink{class_vector_a300b3851da687ddfee9d3fcec7b1ebfc}{cend} () const 
+\begin{DoxyCompactList}\small\item\em Pega um iterador const apontando para o ultimo elemento da lista. \end{DoxyCompactList}\item 
+\hyperlink{class_vector_1_1iterator}{iterator} \hyperlink{class_vector_af0f2938e008aa9fe309d4b2af8dd4f11}{end} ()
+\begin{DoxyCompactList}\small\item\em Pega um iterador apontando para o ultimo elemento da lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição detalhada}
+\subsubsection*{template$<$typename Obj$>$\\*
+class Vector$<$ Obj $>$}
+
+Classe \hyperlink{class_vector}{Vector}. 
+
+Assinaturas das funções e definição da classe \hyperlink{class_vector}{Vector} 
+
+\subsection{Documentação dos métodos}
+\index{Vector@{Vector}!assign@{assign}}
+\index{assign@{assign}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{assign(const Obj \&x)}{assign(const Obj &x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ void {\bf Vector}$<$ Obj $>$\+::assign (
+\begin{DoxyParamCaption}
+\item[{const Obj \&}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a76ac292de41a52ebc948432c1220d13e}{}\label{class_vector_a76ac292de41a52ebc948432c1220d13e}
+
+
+Substitui o conteúdo do vetor   $\ast$ @ Param x Atribui novos conteúdos ao vector, substituindo seu conteúdo atual, e modificando seu tamanho em conformidade. 
+
+  $\ast$ \index{Vector@{Vector}!at@{at}}
+\index{at@{at}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{at(size\+\_\+t x)}{at(size_t x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ Obj \& {\bf Vector}$<$ Obj $>$\+::at (
+\begin{DoxyParamCaption}
+\item[{size\+\_\+t}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a568255f8d17d285793167b1cee11f926}{}\label{class_vector_a568255f8d17d285793167b1cee11f926}
+
+
+Retorna o elemento em alguma posição   $\ast$ @ Param x A posição a ser devolvido   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+O elemento em posição    
+\end{DoxyReturn}
+\index{Vector@{Vector}!back@{back}}
+\index{back@{back}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{back() const }{back() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ const Obj \& {\bf Vector}$<$ Obj $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_vector_a67d8538b1d68f7a099622383565839d9}{}\label{class_vector_a67d8538b1d68f7a099622383565839d9}
+
+
+Retorna o Obj no fim do \hyperlink{class_vector}{Vector}   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+O último elemento do vector    
+\end{DoxyReturn}
+\index{Vector@{Vector}!begin@{begin}}
+\index{begin@{begin}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{begin()}{begin()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ {\bf Vector}$<$ Obj $>$\+::{\bf iterator} {\bf Vector}$<$ Obj $>$\+::begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a261d7f78f5ac7b890eff45ce86e8d58c}{}\label{class_vector_a261d7f78f5ac7b890eff45ce86e8d58c}
+
+
+Pega um iterador apontando para o primeiro elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Retorna um iterador para o primeiro elemento do vector. (cppreference) 
+\end{DoxyReturn}
+\index{Vector@{Vector}!capacity@{capacity}}
+\index{capacity@{capacity}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{capacity() const }{capacity() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ size\+\_\+t {\bf Vector}$<$ Obj $>$\+::capacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_vector_acf2e59a5ce4f1059e08139989ece3e0b}{}\label{class_vector_acf2e59a5ce4f1059e08139989ece3e0b}
+
+
+Retorna a capacidade \hyperlink{class_vector}{Vector}   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+A capacidade \hyperlink{class_vector}{Vector}    
+\end{DoxyReturn}
+\index{Vector@{Vector}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{cbegin() const }{cbegin() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ {\bf Vector}$<$ Obj $>$\+::{\bf const\+\_\+iterator} {\bf Vector}$<$ Obj $>$\+::cbegin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_vector_a66c90ea54c76cf19aee525ed7f4c46dc}{}\label{class_vector_a66c90ea54c76cf19aee525ed7f4c46dc}
+
+
+Pega um iterador const apontando para o primeiro elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Retorna um iterador para o primeiro elemento do vector. (cppreference) 
+\end{DoxyReturn}
+\index{Vector@{Vector}!cend@{cend}}
+\index{cend@{cend}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{cend() const }{cend() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ {\bf Vector}$<$ Obj $>$\+::{\bf const\+\_\+iterator} {\bf Vector}$<$ Obj $>$\+::cend (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_vector_a300b3851da687ddfee9d3fcec7b1ebfc}{}\label{class_vector_a300b3851da687ddfee9d3fcec7b1ebfc}
+
+
+Pega um iterador const apontando para o ultimo elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Retorna um iterador para o elemento seguinte ao último elemento do vector. 
+\end{DoxyReturn}
+\index{Vector@{Vector}!clear@{clear}}
+\index{clear@{clear}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ void {\bf Vector}$<$ Obj $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_ae7234417f87946c4bfcccf738af75837}{}\label{class_vector_ae7234417f87946c4bfcccf738af75837}
+
+
+Remove todos os elementos do vetor   
+
+ $\ast$ \index{Vector@{Vector}!empty@{empty}}
+\index{empty@{empty}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{empty()}{empty()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ bool {\bf Vector}$<$ Obj $>$\+::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a7d4b2337c2da133cc4868ce755730644}{}\label{class_vector_a7d4b2337c2da133cc4868ce755730644}
+
+
+Verifica se o vetor está vazio   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+True se estiver vazio e False se não estiver vazio    
+\end{DoxyReturn}
+\index{Vector@{Vector}!end@{end}}
+\index{end@{end}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{end()}{end()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ {\bf Vector}$<$ Obj $>$\+::{\bf iterator} {\bf Vector}$<$ Obj $>$\+::end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_af0f2938e008aa9fe309d4b2af8dd4f11}{}\label{class_vector_af0f2938e008aa9fe309d4b2af8dd4f11}
+
+
+Pega um iterador apontando para o ultimo elemento da lista. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Retorna um iterador para o elemento seguinte ao último elemento do vector. 
+\end{DoxyReturn}
+\index{Vector@{Vector}!front@{front}}
+\index{front@{front}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{front() const }{front() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ const Obj \& {\bf Vector}$<$ Obj $>$\+::front (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_vector_a239e09c772177108354d25fea6974bbd}{}\label{class_vector_a239e09c772177108354d25fea6974bbd}
+
+
+Retorna o Obj no inicio do \hyperlink{class_vector}{Vector}   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+O primeiro elemento do vector    
+\end{DoxyReturn}
+\index{Vector@{Vector}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{operator[](size\+\_\+t x)}{operator[](size_t x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ Obj \& {\bf Vector}$<$ Obj $>$\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{size\+\_\+t}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a51289cefc80dbd081f815f30a554b7db}{}\label{class_vector_a51289cefc80dbd081f815f30a554b7db}
+
+
+Sobrecarrega o operador \mbox{[}\mbox{]}   $\ast$ @ Param x posição a ser acessada   $\ast$. 
+
+  $\ast$ \begin{DoxyReturn}{Retorna}
+Elemento na posição informada    
+\end{DoxyReturn}
+\index{Vector@{Vector}!pop\+\_\+back@{pop\+\_\+back}}
+\index{pop\+\_\+back@{pop\+\_\+back}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{pop\+\_\+back()}{pop_back()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ void {\bf Vector}$<$ Obj $>$\+::pop\+\_\+back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a616d10a9af01df582450d1ba6fd2e1bc}{}\label{class_vector_a616d10a9af01df582450d1ba6fd2e1bc}
+
+
+Remove o ultimo elemento do vetor    
+
+  $\ast$ \index{Vector@{Vector}!push\+\_\+back@{push\+\_\+back}}
+\index{push\+\_\+back@{push\+\_\+back}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{push\+\_\+back(const Obj \&x)}{push_back(const Obj &x)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ void {\bf Vector}$<$ Obj $>$\+::push\+\_\+back (
+\begin{DoxyParamCaption}
+\item[{const Obj \&}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a0edf2c3ff13e5c83ddea6ee5c8c8ec4f}{}\label{class_vector_a0edf2c3ff13e5c83ddea6ee5c8c8ec4f}
+
+
+Adicionar um elemento no final do vector   $\ast$ @ Param x Elemento a ser colocado atrás    
+
+  $\ast$ \index{Vector@{Vector}!reserve@{reserve}}
+\index{reserve@{reserve}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{reserve(size\+\_\+t new\+\_\+capacidade)}{reserve(size_t new_capacidade)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ void {\bf Vector}$<$ Obj $>$\+::reserve (
+\begin{DoxyParamCaption}
+\item[{size\+\_\+t}]{new\+\_\+capacidade}
+\end{DoxyParamCaption}
+)}\hypertarget{class_vector_a1a858089a6bc82faffabdeb03386a85f}{}\label{class_vector_a1a858089a6bc82faffabdeb03386a85f}
+
+
+Define a nova capacidade \hyperlink{class_vector}{Vector}   $\ast$ @ Param new\+\_\+capacidade O novo tamanho da capacidade    
+
+  $\ast$ \index{Vector@{Vector}!size@{size}}
+\index{size@{size}!Vector@{Vector}}
+\subsubsection[{\texorpdfstring{size() const }{size() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Obj $>$ size\+\_\+t {\bf Vector}$<$ Obj $>$\+::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_vector_afe1de779df754eedd2a8a0be4d796643}{}\label{class_vector_afe1de779df754eedd2a8a0be4d796643}
+
+
+Pega tamanho \hyperlink{class_vector}{Vector}   $\ast$. 
+
+\begin{DoxyReturn}{Retorna}
+O tamanho \hyperlink{class_vector}{Vector}   
+\end{DoxyReturn}
+
+
+A documentação para esta classe foi gerada a partir dos seguintes ficheiros\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+C\+T\+O\+R/include/\hyperlink{vector_8h}{vector.\+h}\item 
+V\+E\+C\+T\+O\+R/include/\hyperlink{vector_8inl}{vector.\+inl}\end{DoxyCompactItemize}
